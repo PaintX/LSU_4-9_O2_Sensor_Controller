@@ -3,12 +3,14 @@ LIBS:TLV2252AID
 LIBS:Power
 LIBS:Resistances_SMD_0603
 LIBS:Condensateurs_SMD_0603
+LIBS:Microcontroleur_Atmel_SMD_TQFP
+LIBS:Barrettes_TH
 LIBS:LO2SC-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -59,9 +61,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 3050 3650 3050
 Text GLabel 6000 3250 2    50   Input ~ 0
-OUT1
+2.5v
 Text GLabel 4050 2750 0    50   Input ~ 0
-OUT1
+2.5v
 $Comp
 L 1.2k R3
 U 1 1 55FAD28F
@@ -182,12 +184,12 @@ POUT_WIDE
 Wire Wire Line
 	2300 2950 2050 2950
 $Comp
-L TLV2252AID U?
+L TLV2252AID U1
 U 1 1 55FBAF48
 P 4850 2750
-F 0 "U?" H 4639 3309 50  0000 L CNN
+F 0 "U1" H 4639 3309 50  0000 L CNN
 F 1 "TLV2252AID" H 4778 1835 50  0000 L CNN
-F 2 "SOIC127P600X175-8N" H 4850 2750 50  0001 L CNN
+F 2 "Amplificateur_Operationel:SOIC127P600X175-8N" H 4850 2750 50  0001 L CNN
 F 3 "" H 4850 2750 60  0000 C CNN
 	1    4850 2750
 	1    0    0    -1  

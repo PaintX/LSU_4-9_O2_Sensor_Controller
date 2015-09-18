@@ -1,4 +1,4 @@
-update=17/09/2015 16:46:23
+update=18/09/2015 13:25:12
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,3 +33,5 @@ LibName1=Circuit Intégré/Amplificateur_Operationel/TLV2252AID
 LibName2=Power/Power
 LibName3=Resistances/Resistances_SMD_0603
 LibName4=Condensateurs/Condensateurs_SMD_0603
+LibName5=Circuit Intégré/Microcontroleur/Atmel/Microcontroleur_Atmel_SMD_TQFP
+LibName6=Connecteurs/Barrettes/Barrettes_TH

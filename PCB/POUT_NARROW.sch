@@ -1,0 +1,137 @@
+EESchema Schematic File Version 2
+LIBS:TLV2252AID
+LIBS:Power
+LIBS:Resistances_SMD_0603
+LIBS:Condensateurs_SMD_0603
+LIBS:Microcontroleur_Atmel_SMD_TQFP
+LIBS:Barrettes_TH
+LIBS:LO2SC-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 47k R8
+U 1 1 55FBF4EF
+P 4200 2500
+F 0 "R8" V 4280 2500 50  0000 C CNN
+F 1 "47k" V 4200 2500 50  0000 C CNN
+F 2 "resistances:R_0603_HandSoldering" V 4130 2500 30  0001 C CNN
+F 3 "" V 4280 2500 30  0000 C CNN
+F 4 "311-47kGRCT-ND" V 4380 2600 60  0001 C CNN "Ref Digikey"
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10k R9
+U 1 1 55FBF55A
+P 4200 2950
+F 0 "R9" V 4280 2950 50  0000 C CNN
+F 1 "10k" V 4200 2950 50  0000 C CNN
+F 2 "resistances:R_0603_HandSoldering" V 4130 2950 30  0001 C CNN
+F 3 "" V 4280 2950 30  0000 C CNN
+F 4 "311-10kGRCT-ND" V 4380 3050 60  0001 C CNN "Ref Digikey"
+	1    4200 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2350 4200 2200
+Wire Wire Line
+	4200 2200 4350 2200
+Wire Wire Line
+	4200 2800 4200 2650
+Wire Wire Line
+	4200 3100 4200 3200
+$Comp
+L GND #PWR08
+U 1 1 55FBF5BC
+P 4200 3200
+F 0 "#PWR08" H 4200 2950 50  0001 C CNN
+F 1 "GND" H 4200 3050 50  0000 C CNN
+F 2 "" H 4200 3200 60  0000 C CNN
+F 3 "" H 4200 3200 60  0000 C CNN
+	1    4200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2750 4500 2750
+Connection ~ 4200 2750
+Text GLabel 4350 2200 2    50   Input ~ 0
+POUT_NARROW
+Text GLabel 4500 2750 2    50   Input ~ 0
+OUT_NARROWBAND
+$Comp
+L 10k R10
+U 1 1 55FBF782
+P 6400 2450
+F 0 "R10" V 6480 2450 50  0000 C CNN
+F 1 "10k" V 6400 2450 50  0000 C CNN
+F 2 "resistances:R_0603_HandSoldering" V 6330 2450 30  0001 C CNN
+F 3 "" V 6480 2450 30  0000 C CNN
+F 4 "311-10kGRCT-ND" V 6580 2550 60  0001 C CNN "Ref Digikey"
+	1    6400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10k R11
+U 1 1 55FBF809
+P 6400 3000
+F 0 "R11" V 6480 3000 50  0000 C CNN
+F 1 "10k" V 6400 3000 50  0000 C CNN
+F 2 "resistances:R_0603_HandSoldering" V 6330 3000 30  0001 C CNN
+F 3 "" V 6480 3000 30  0000 C CNN
+F 4 "311-10kGRCT-ND" V 6580 3100 60  0001 C CNN "Ref Digikey"
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2600 6400 2850
+Wire Wire Line
+	6400 2300 6400 2250
+Wire Wire Line
+	6400 2250 6750 2250
+Wire Wire Line
+	6400 2700 6700 2700
+Connection ~ 6400 2700
+$Comp
+L GND #PWR09
+U 1 1 55FBF883
+P 6400 3300
+F 0 "#PWR09" H 6400 3050 50  0001 C CNN
+F 1 "GND" H 6400 3150 50  0000 C CNN
+F 2 "" H 6400 3300 60  0000 C CNN
+F 3 "" H 6400 3300 60  0000 C CNN
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3150 6400 3300
+Text GLabel 6750 2250 2    50   Input ~ 0
+POUT_VS
+$Comp
+L 100nF C4
+U 1 1 55FBF98A
+P 6850 2700
+F 0 "C4" H 6875 2800 50  0000 L CNN
+F 1 "100nF" H 6875 2600 50  0000 L CNN
+F 2 "condensateurs:C_0603_HandSoldering" H 6888 2550 30  0001 C CNN
+F 3 "" H 6850 2700 60  0000 C CNN
+F 4 "311-1344-1-ND" V 7030 2800 60  0001 C CNN "Ref Digikey"
+	1    6850 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 2700 7150 2700
+Text GLabel 7150 2700 2    50   Input ~ 0
+PIN_VS
+$EndSCHEMATC
