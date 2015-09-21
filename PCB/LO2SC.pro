@@ -1,4 +1,4 @@
-update=18/09/2015 13:25:12
+update=18/09/2015 19:38:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=C:/Users/ARRT/Documents/Github/Kicad_lib
+LibDir=C:/Users/aurmy/Documents/GitHub/Kicad_lib
 [eeschema/libraries]
 LibName1=Circuit Intégré/Amplificateur_Operationel/TLV2252AID
 LibName2=Power/Power
