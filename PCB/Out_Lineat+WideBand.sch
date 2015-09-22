@@ -1,10 +1,13 @@
 EESchema Schematic File Version 2
-LIBS:TLV2252AID
 LIBS:Power
 LIBS:Resistances_SMD_0603
 LIBS:Condensateurs_SMD_0603
 LIBS:Microcontroleur_Atmel_SMD_TQFP
 LIBS:Barrettes_TH
+LIBS:Amplificateur_Operationel_SMD_SOIC
+LIBS:Quartz_SMD
+LIBS:Regulateurs_SMD_SOT89
+LIBS:Regulateurs_SMD_SOT23
 LIBS:LO2SC-cache
 EELAYER 25 0
 EELAYER END

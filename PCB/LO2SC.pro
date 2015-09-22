@@ -1,4 +1,4 @@
-update=18/09/2015 19:38:40
+update=22/09/2015 13:11:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,11 +27,14 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=C:/Users/aurmy/Documents/GitHub/Kicad_lib
+LibDir=C:/Users/ARRT/Documents/Github/Kicad_lib
 [eeschema/libraries]
-LibName1=Circuit Intégré/Amplificateur_Operationel/TLV2252AID
-LibName2=Power/Power
-LibName3=Resistances/Resistances_SMD_0603
-LibName4=Condensateurs/Condensateurs_SMD_0603
-LibName5=Circuit Intégré/Microcontroleur/Atmel/Microcontroleur_Atmel_SMD_TQFP
-LibName6=Connecteurs/Barrettes/Barrettes_TH
+LibName1=Power/Power
+LibName2=Resistances/Resistances_SMD_0603
+LibName3=Condensateurs/Condensateurs_SMD_0603
+LibName4=Circuit Intégré/Microcontroleur/Atmel/Microcontroleur_Atmel_SMD_TQFP
+LibName5=Connecteurs/Barrettes/Barrettes_TH
+LibName6=Circuit Intégré/Amplificateur_Operationel/Amplificateur_Operationel_SMD_SOIC
+LibName7=Quartz/Quartz_SMD
+LibName8=Regulateurs/Regulateurs_SMD_SOT89
+LibName9=Regulateurs/Regulateurs_SMD_SOT23
