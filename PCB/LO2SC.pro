@@ -1,4 +1,4 @@
-update=22/09/2015 13:11:22
+update=23/09/2015 10:09:53
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,3 +38,4 @@ LibName6=Circuit Intégré/Amplificateur_Operationel/Amplificateur_Operationel_S
 LibName7=Quartz/Quartz_SMD
 LibName8=Regulateurs/Regulateurs_SMD_SOT89
 LibName9=Regulateurs/Regulateurs_SMD_SOT23
+LibName10=Connecteurs/JAE/Connecteurs_JAE_TH
