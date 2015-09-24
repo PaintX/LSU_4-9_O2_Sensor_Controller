@@ -1,4 +1,4 @@
-update=24/09/2015 12:44:38
+update=24/09/2015 20:39:26
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=C:/Users/ARRT/Documents/Github/Kicad_lib
+LibDir=C:/Users/aurmy/Documents/GitHub/Kicad_Lib
 [eeschema/libraries]
 LibName1=Power/Power
 LibName2=Resistances/Resistances_SMD_0603
