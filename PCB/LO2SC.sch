@@ -84,14 +84,97 @@ F 3 "" H 6450 5200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR01
 U 1 1 56030C63
 P 5950 1800
-F 0 "#PWR?" H 5950 1650 50  0001 C CNN
+F 0 "#PWR01" H 5950 1650 50  0001 C CNN
 F 1 "+5V" H 5950 1940 50  0000 C CNN
 F 2 "" H 5950 1800 60  0000 C CNN
 F 3 "" H 5950 1800 60  0000 C CNN
 	1    5950 1800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6050 1800 6050 1700
+Text GLabel 6050 1700 1    50   Input ~ 0
+DSEL
+Wire Wire Line
+	6150 1800 6150 1700
+Wire Wire Line
+	6250 1800 6250 1700
+Wire Wire Line
+	6350 1800 6350 1700
+Text GLabel 6150 1700 1    50   Input ~ 0
+CSEL2
+Text GLabel 6250 1700 1    50   Input ~ 0
+SCLK
+Text GLabel 6350 1700 1    50   Input ~ 0
+SIN
+$Comp
+L GND #PWR02
+U 1 1 5603DF84
+P 6800 1750
+F 0 "#PWR02" H 6800 1500 50  0001 C CNN
+F 1 "GND" H 6800 1600 50  0000 C CNN
+F 2 "" H 6800 1750 60  0000 C CNN
+F 3 "" H 6800 1750 60  0000 C CNN
+	1    6800 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 1750 6900 1650
+Wire Wire Line
+	7000 1750 7000 1650
+Wire Wire Line
+	7100 1750 7100 1650
+Wire Wire Line
+	7200 1750 7200 1650
+Text GLabel 7100 1650 1    50   Input ~ 0
+CSEL0
+Text GLabel 7000 1650 1    50   Input ~ 0
+CSEL1
+Text GLabel 7200 1650 1    50   Input ~ 0
+LATCH
+Wire Wire Line
+	6200 5400 6200 5900
+$Comp
+L +9V #PWR03
+U 1 1 5603EA59
+P 6200 5900
+F 0 "#PWR03" H 6200 5750 50  0001 C CNN
+F 1 "+9V" H 6200 6040 50  0000 C CNN
+F 2 "" H 6200 5900 60  0000 C CNN
+F 3 "" H 6200 5900 60  0000 C CNN
+	1    6200 5900
+	-1   0    0    1   
+$EndComp
+Text GLabel 6300 5400 3    50   Input ~ 0
+PIN_VS
+Text GLabel 6000 5400 3    50   Input ~ 0
+2.5v
+Text GLabel 6100 5400 3    50   Input ~ 0
+IP
+Text GLabel 6700 5400 3    50   Input ~ 0
+RCAL
+Text GLabel 6600 5800 3    50   Input ~ 0
+H+
+Text GLabel 6900 5400 3    50   Input ~ 0
+H-
+$Comp
+L GND #PWR04
+U 1 1 5603F1CE
+P 6800 5400
+F 0 "#PWR04" H 6800 5150 50  0001 C CNN
+F 1 "GND" H 6800 5250 50  0000 C CNN
+F 2 "" H 6800 5400 60  0000 C CNN
+F 3 "" H 6800 5400 60  0000 C CNN
+	1    6800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5400 6600 5800
+Wire Wire Line
+	6200 5750 6600 5750
+Connection ~ 6600 5750
+Connection ~ 6200 5750
 $EndSCHEMATC
